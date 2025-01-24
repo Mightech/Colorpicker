@@ -1,0 +1,79 @@
+Quote.css */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.wrapper_one {
+    margin-bottom: 20px;
+   
+}
+
+.myinput, .mytext {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.mytext {
+    height: 100px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.wrapper_two {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.note-item {
+    background-color: #f4f4f4;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.note-item h3 {
+    margin: 0;
+}
+
+.note-item p {
+    font-style: italic;
+}
+
+.note-item small {
+    display: block;
+    color: #888;
+    font-size: 12px;
+}
+
+/* Styling for the Delete Button */
+.delete-btn {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}

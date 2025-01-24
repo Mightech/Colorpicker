@@ -1,0 +1,71 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+.wrapper {
+    width: 40%;
+    height: 80vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    padding: 10px;
+}
+.myinput {
+    width: 100%;
+}
+.notearea {
+    height: 30%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 13px;
+  
+}
+.Btn {
+    width: 50%;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 23%;
+    transition: all 350ms ease-in-out;
+    transform: scale(1);
+    background-color: aliceblue;
+
+}
+.Btn:hover {
+    transform: scale(1.03);
+    background-color: rgb(13, 176, 226);
+    color: white;
+    font-size: 15px;
+}
+.output {
+    width: 85%;
+    height: 40%;
+    /* background-color: orange; */
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    /* overflow: hidden; */
+}
+.notewrapper {
+    width: 20%;
+    height: 28vh;
+    background-color: rgb(246, 253, 253);
+    border-radius: 7px;
+    color: azure;
+    
+}
+.notewrapper > h3 {
+    color: white;
+}
+.notewrapper >   small{
+    color: white;
+    display: block;
+    font-size: 12px;
+}
+/* .wh {
+    background-color: white;
+    width: 20%;
+    height: 30px;
+} */

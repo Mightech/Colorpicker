@@ -1,0 +1,74 @@
+ const [title, setTitle] = useState('')
+    const [note, setNote] = useState ([])
+    const [notelist, setNotelist]= useState ()
+
+    const handletitle = (e) => {
+        setTitle(e.target.value)
+        value(title)
+
+    }
+    console.log(handlenote,handletitle)
+    const handlenote = (e) => {
+        setNote(e.target.value)
+        value(note)
+    }
+    // const AddNote = () => {
+    //     setNotelist(notelist === title && note)
+        
+    // }
+  return (
+    <div className='container'>
+    <div className="wrapper">
+        <input type="title" 
+        placeholder='Title'
+        className='myinput'
+        // onChange={handletitle}
+        
+        />
+        <textarea  
+        type="note"
+        placeholder='Enter your Note'
+        className='notearea'
+        // onChange={handlenote}
+        > 
+        </textarea>
+        <button className='Btn'onClick={AddNote}>Add note</button>
+        </div>    
+      
+    </div>
+  )
+}
+
+
+
+const Class = () => {
+    const [car, setCar] = useState({
+        brand: "Ford",
+        model: "Mustang",
+        year: "1964",
+        color: "red"
+        });
+
+        const updatecar = () =>{
+            setCar(previousState=>{
+                return{ ...previousState, color:"blue"}
+                
+            })
+        }
+    
+    return (
+        <div className='container'>
+            <h1>my{car.brand}</h1>
+            <p>this{car.model} bought in this {car.year} and its has a color of {car.color}</p>
+
+            <button onClick={updatecar}
+            type="button">
+                click me
+            </button>
+         
+
+            
+  
+        </div>
+    )
+}

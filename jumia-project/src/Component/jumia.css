@@ -1,0 +1,41 @@
+.card {
+    width: 65%;
+    height: 60%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 20%;
+    height: 79%; 
+    background-color: aquamarine;
+    border-radius: 7px;
+}
+.card > img {
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* The minus button */
+
+.btn_one {
+    width: 20px;
+    height: 5%;
+    background-color: green;
+    padding: 7px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    
+}
+/* The plus button */
+
+.btn_two {
+    width: 20px;
+    height: 5%;
+    background-color: rgb(115, 128, 0);
+    padding: 7px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
